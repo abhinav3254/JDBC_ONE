@@ -25,7 +25,7 @@ public class StepTwo {
 
             // Creating a query
 
-            String query = "CREATE TABLE STUDENTS (ID INT NOT NULL,NAME VARCHAR (20) NOT NULL, AGE INT NOT NULL, PRIMARY KEY (ID) )";
+            String query = "CREATE TABLE STUDENTS (ID INT NOT NULL AUTO_INCREMENT,NAME VARCHAR (20) NOT NULL, AGE INT NOT NULL, PRIMARY KEY (ID) )";
                 
             // Creating a statement because it is a simple query
 
