@@ -24,6 +24,8 @@ public class Main {
                 Student student = new Student(name, phone, city);
 
                 System.out.println(student.toString());
+                ConnectionJava connectionJava = new ConnectionJava();
+                connectionJava.createConnection();
             } else if (c == 4) {
                 break;
             } else {
